@@ -91,7 +91,7 @@ executable roadburn-redux-crawler
     -- Base language which the package is written in.
     default-language: Haskell2010
 
-test-suite roadburn-crawler-test
+test-suite roadburn-redux-crawler-test
     -- Base language which the package is written in.
     default-language: Haskell2010
 
