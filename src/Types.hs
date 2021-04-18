@@ -4,7 +4,7 @@
 
 module Types where
 
-import Data.Aeson (FromJSON (parseJSON), withObject, (.:), (.:?))
+import Data.Aeson (FromJSON (parseJSON), ToJSON, withObject, (.:), (.:?))
 
 type PostType = Text
 type URL = Text
@@ -19,7 +19,7 @@ data PostsItem = PostsItem
     meta :: Meta,
     highlights :: [Highlight]
   }
-  deriving (Show, Generic, Eq)
+  deriving (Show, Generic, Eq, ToJSON)
 
 instance FromJSON PostsItem where
   parseJSON = withObject "PostsItem" $ \obj ->
@@ -52,7 +52,7 @@ data DataItem = DataItem
     updated_at :: Text,
     liked :: Bool
   }
-  deriving (Show, Generic, Eq)
+  deriving (Show, Generic, Eq, ToJSON)
 
 instance FromJSON DataItem where
   parseJSON = withObject "DataItem" $ \obj ->
@@ -85,7 +85,7 @@ data PostTypeDataItem = PostTypeDataItem
     meta_image :: Maybe Text,
     images :: [ImageData]
   }
-  deriving (Show, Generic, Eq)
+  deriving (Show, Generic, Eq, ToJSON)
 
 instance FromJSON PostTypeDataItem where
   parseJSON = withObject "PostTypeDataItem" $ \obj ->
@@ -102,7 +102,7 @@ data ImageData = ImageData
   { image_url :: Text,
     name :: Text
   }
-  deriving (Show, Generic, Eq)
+  deriving (Show, Generic, Eq, ToJSON)
 
 instance FromJSON ImageData where
   parseJSON = withObject "ImageData" $ \obj ->
@@ -115,7 +115,7 @@ data CategoryItem = CategoryItem
     category_name :: Text,
     code :: Text
   }
-  deriving (Show, Generic, Eq)
+  deriving (Show, Generic, Eq, ToJSON)
 
 instance FromJSON CategoryItem where
   parseJSON = withObject "CategoryItem" $ \obj ->
@@ -130,7 +130,7 @@ data Links = Links
     prev :: Maybe Text,
     next :: Maybe Text
   }
-  deriving (Show, Generic, Eq, FromJSON)
+  deriving (Show, Generic, Eq, FromJSON, ToJSON)
 
 data Meta = Meta
   { current_page :: Int,
@@ -141,6 +141,6 @@ data Meta = Meta
     to :: Int,
     total :: Int
   }
-  deriving (Show, Generic, Eq, FromJSON)
+  deriving (Show, Generic, Eq, FromJSON, ToJSON)
 
 type Highlight = DataItem
