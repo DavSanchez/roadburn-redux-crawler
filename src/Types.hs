@@ -134,11 +134,11 @@ data Links = Links
 
 data Meta = Meta
   { current_page :: Int,
-    from :: Int,
+    from :: Maybe Int,
     last_page :: Int,
     path :: Text,
     per_page :: Int,
-    to :: Int,
+    to :: Maybe Int,
     total :: Int
   }
   deriving (Show, Generic, Eq, FromJSON, ToJSON)
