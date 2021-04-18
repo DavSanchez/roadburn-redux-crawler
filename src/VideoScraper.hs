@@ -32,7 +32,7 @@ scrape = goScrape 0
       let scrapeData = getResponseBody response :: PostsItem
           videoLinks = (getVideoLinks . getVideoItems) scrapeData
       encodeFile ("data/roadburn-redux-contents-" ++ show n ++ ".json") scrapeData
-      if null videoLinks
+      if (null . getPostData) scrapeData
         then pure []
         else pure videoLinks <> goScrape (n + 1) -- The IO monad is instance of Semigroup (?)
 
