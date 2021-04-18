@@ -10,7 +10,14 @@ import Network.HTTP.Simple
     httpJSON,
     parseRequest,
   )
-import Types (DataItem (post_type, post_type_data), DataType, PostType, PostTypeDataItem (data_url), PostsItem (posts_data), URL)
+import Types
+  ( DataItem (post_type, post_type_data),
+    DataType,
+    PostType,
+    PostTypeDataItem (data_url),
+    PostsItem (posts_data),
+    URL,
+  )
 
 getRoadburnRedux :: IO ()
 getRoadburnRedux = scrape >>= writeFileText "data/roadburn-redux-urls.txt" . unlines
