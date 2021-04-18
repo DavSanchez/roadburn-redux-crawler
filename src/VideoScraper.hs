@@ -3,7 +3,7 @@
 
 module VideoScraper (getRoadburnRedux) where
 
-import Data.Aeson ()
+import Data.Aeson (ToJSON (toJSON), encode, encodeFile, toEncoding)
 import qualified Data.Text as T
 import Network.HTTP.Simple
   ( getResponseBody,
@@ -13,8 +13,8 @@ import Network.HTTP.Simple
 import Types (DataItem (post_type, post_type_data), DataType, PostType, PostTypeDataItem (data_url), PostsItem (posts_data), URL)
 
 getRoadburnRedux :: IO ()
-getRoadburnRedux = scrape >>= \urls -> writeFile "roadburn-redux-urls.txt" $ (toString . T.unlines) urls
--- getRoadburnRedux = scrape >>= traverse_ (putStrLn . toString)
+getRoadburnRedux = scrape >>= writeFileText "data/roadburn-redux-urls.txt" . unlines
+-- OR getRoadburnRedux = scrape >>= traverse_ (appendFileText "data/roadburn-redux-urls.txt" . (<> "\n"))
 
 req :: Text
 req = "GET https://roadburn-api.lwprod.nl/api/posts"
@@ -31,6 +31,7 @@ scrape = goScrape 0
       response <- httpJSON request
       let scrapeData = getResponseBody response :: PostsItem
           videoLinks = (getVideoLinks . getVideoItems) scrapeData
+      encodeFile ("data/roadburn-redux-contents-" ++ show n ++ ".json") scrapeData
       if null videoLinks
         then pure []
         else pure videoLinks <> goScrape (n + 1) -- The IO monad is instance of Semigroup (?)
