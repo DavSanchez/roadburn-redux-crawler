@@ -18,7 +18,7 @@ version:            0.1.0.0
 
 -- A short (one-line) description of the package.
 synopsis:
-    A web crawler to download all the concerts from Roadburn Redux (2021)
+    A web crawler to get all the video URLs from Roadburn Redux (2021)
 
 -- A longer description of the package.
 -- description:
