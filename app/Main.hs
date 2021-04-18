@@ -1,8 +1,8 @@
 module Main where
 
-import VideoScraper (getVideoUrls)
+import VideoScraper (getRoadburnRedux)
 
 main :: IO ()
 main = do
-  putStrLn "Hello, Haskell Roadburn Redux scraper!"
-  getVideoUrls
+  -- putStrLn "Hello, Haskell Roadburn Redux scraper!"
+  getRoadburnRedux

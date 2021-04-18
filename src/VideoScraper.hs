@@ -1,7 +1,7 @@
 {-# LANGUAGE DeriveGeneric #-}
 {-# LANGUAGE OverloadedStrings #-}
 
-module VideoScraper (getVideoUrls) where
+module VideoScraper (getRoadburnRedux) where
 
 import Data.Aeson ()
 import Network.HTTP.Simple
@@ -11,8 +11,8 @@ import Network.HTTP.Simple
   )
 import Types (DataItem (post_type, post_type_data), DataType, PostType, PostTypeDataItem (data_url), PostsItem (posts_data), URL)
 
-getVideoUrls :: IO ()
-getVideoUrls = scrape >>= traverse_ (putStrLn . toString)
+getRoadburnRedux :: IO ()
+getRoadburnRedux = scrape >>= traverse_ (putStrLn . toString)
 
 req :: Text
 req = "GET https://roadburn-api.lwprod.nl/api/posts"
@@ -31,7 +31,7 @@ scrape = goScrape 0
           videoLinks = (getVideoLinks . getVideoItems) scrapeData
       if null videoLinks
         then pure []
-        else pure videoLinks <> goScrape (n + 1)
+        else pure videoLinks <> goScrape (n + 1) -- The IO monad is instance of Semigroup (?)
 
 getVideoLinks :: [PostTypeDataItem] -> [URL]
 getVideoLinks = mapMaybe getVideoUrl
