@@ -22,6 +22,7 @@ cabal.project.local~
 .HTF/
 .ghc.environment.*
 
-# Results
+# This is for storing the results.
+# TODO: Remove once final scraping is done to add files to version control
 data/*
 !data/README.md
