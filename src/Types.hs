@@ -46,7 +46,7 @@ data DataItem = DataItem
     highlight :: Int,
     active :: Int,
     published_at :: Text,
-    time_start :: Text,
+    time_start :: Maybe Text,
     time_end :: Maybe Text,
     created_at :: Text,
     updated_at :: Text,
@@ -70,7 +70,7 @@ instance FromJSON DataItem where
       <*> obj .: "highlight"
       <*> obj .: "active"
       <*> obj .: "published_at"
-      <*> obj .: "time_start"
+      <*> obj .:? "time_start"
       <*> obj .:? "time_end"
       <*> obj .: "created_at"
       <*> obj .: "updated_at"

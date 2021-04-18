@@ -11,21 +11,27 @@ import Network.HTTP.Simple
   )
 import Types (DataItem (post_type, post_type_data), DataType, PostType, PostTypeDataItem (data_url), PostsItem (posts_data), URL)
 
-req :: String
+getVideoUrls :: IO ()
+getVideoUrls = scrape >>= traverse_ (putStrLn . toString)
+
+req :: Text
 req = "GET https://roadburn-api.lwprod.nl/api/posts"
 
-queryString :: String -> String
-queryString = (++) "?limit=5&page="
+queryString :: Int -> Text
+queryString 0 = mempty
+queryString n = "?limit=5&page=" <> show n
 
-getVideoUrls :: IO ()
-getVideoUrls = scrape >>= (print . getVideoLinks . getVideoItems)
-
-scrape :: IO PostsItem
-scrape = do
-  request <- parseRequest req
-  response <- httpJSON request
-  let scrapeData = getResponseBody response :: PostsItem
-  pure scrapeData
+scrape :: IO [URL]
+scrape = goScrape 0
+  where
+    goScrape n = do
+      request <- parseRequest $ toString (req <> queryString n)
+      response <- httpJSON request
+      let scrapeData = getResponseBody response :: PostsItem
+          videoLinks = (getVideoLinks . getVideoItems) scrapeData
+      if null videoLinks
+        then pure []
+        else pure videoLinks <> goScrape (n + 1)
 
 getVideoLinks :: [PostTypeDataItem] -> [URL]
 getVideoLinks = mapMaybe getVideoUrl
