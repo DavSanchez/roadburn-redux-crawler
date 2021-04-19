@@ -1,1 +1,22 @@
-{"fresh_dynamic_data":false,"links":{"next":null,"prev":"https://roadburn-api.lwprod.nl/api/posts?page=38","last":"https://roadburn-api.lwprod.nl/api/posts?page=38","first":"https://roadburn-api.lwprod.nl/api/posts?page=1"},"meta":{"to":null,"total":189,"last_page":38,"from":null,"per_page":5,"path":"https://roadburn-api.lwprod.nl/api/posts","current_page":39},"fresh":true,"posts_data":[],"fresh_highlights":false,"highlights":[]}
+{
+  "fresh_dynamic_data": false,
+  "links": {
+    "next": null,
+    "prev": "https://roadburn-api.lwprod.nl/api/posts?page=38",
+    "last": "https://roadburn-api.lwprod.nl/api/posts?page=38",
+    "first": "https://roadburn-api.lwprod.nl/api/posts?page=1"
+  },
+  "meta": {
+    "to": null,
+    "total": 189,
+    "last_page": 38,
+    "from": null,
+    "per_page": 5,
+    "path": "https://roadburn-api.lwprod.nl/api/posts",
+    "current_page": 39
+  },
+  "fresh": true,
+  "posts_data": [],
+  "fresh_highlights": false,
+  "highlights": []
+}

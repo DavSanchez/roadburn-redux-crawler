@@ -1,1 +1,208 @@
-{"fresh_dynamic_data":false,"links":{"next":"https://roadburn-api.lwprod.nl/api/posts?page=5","prev":"https://roadburn-api.lwprod.nl/api/posts?page=3","last":"https://roadburn-api.lwprod.nl/api/posts?page=38","first":"https://roadburn-api.lwprod.nl/api/posts?page=1"},"meta":{"to":20,"total":189,"last_page":38,"from":16,"per_page":5,"path":"https://roadburn-api.lwprod.nl/api/posts","current_page":4},"fresh":true,"posts_data":[{"liked":false,"likes_count":34,"post_type_status":"available","title":"Amulets","post_type_data":{"images":[{"name":"2021-04-17-c271c63c011e25d89d0bdf2cef1c5a2a1062ae1b.jpg","image_url":"https://storage.googleapis.com/lw-poppodium013-roadburn-prod/cms/uploads/2021-04-17-c271c63c011e25d89d0bdf2cef1c5a2a1062ae1b.jpg"}],"data_url":"https://player.vimeo.com/video/533941404","meta_image":null,"meta_title":null,"thumb_url":null,"data_type":"VIMEO","channel_id":null},"category":{"code":"audio_n_video_premieres","category_name":"Audio & video premieres","category_id":3},"time_end":null,"time_start":"2021-04-15T10:00:00.000000Z","updated_at":"2021-04-19T07:33:34.000000Z","post_type":"video","comments_count":2,"active":1,"content":"<p>We’re honoured to be able to premiere a performance video of a track taken from <em>Blooming</em>, recorded at <strong>Randall Taylor’</strong>s home studio - the same location where the album was recorded. Dive into the same lush electronics and contemplative energy found on <em>Blooming</em> and throughout this prolific artist’s back catalogue. </p>","highlight":1,"slug":"amulets","data_id":100,"published_at":"2021-04-18T16:50:00.000000Z","created_at":"2021-04-13T12:12:03.000000Z"},{"liked":false,"likes_count":94,"post_type_status":"available","title":"Commissioned: Of Blood And Mercury performing The Other Side Of Death","post_type_data":{"images":[{"name":"2021-04-17-fe70e449c46f7f65a6e7f26ed0540b320e337fb3.jpg","image_url":"https://storage.googleapis.com/lw-poppodium013-roadburn-prod/cms/uploads/2021-04-17-fe70e449c46f7f65a6e7f26ed0540b320e337fb3.jpg"}],"data_url":"https://player.vimeo.com/video/538375970","meta_image":null,"meta_title":null,"thumb_url":null,"data_type":null,"channel_id":"rHcMVohl"},"category":{"code":"livestreams","category_name":"Livestreams","category_id":1},"time_end":null,"time_start":"2021-04-14T09:00:00.000000Z","updated_at":"2021-04-19T07:25:26.000000Z","post_type":"livestream","comments_count":16,"active":1,"content":"<p>Live from Tilburg, <em>Of Blood and Mercury</em> are performing a commissioned piece called <em>The Other Side of Death</em>, a soundtrack that will move us through the first moments of after-life.&nbsp; They have promised that our earthly perception of time, space, sound, and feeling will fall apart. Not fully here, nor there, nowhere and everywhere; the lie about death is the beginning of the lie about life...</p>","highlight":1,"slug":"commissioned-of-blood-and-mercury-performing-the-other-side-of-death","data_id":29,"published_at":"2021-04-18T16:40:00.000000Z","created_at":"2021-04-09T13:42:21.000000Z"},{"liked":false,"likes_count":30,"post_type_status":"available","title":"Obsidian Kingdom","post_type_data":{"images":[{"name":"2021-04-17-e2d65c10983a6106ae5c325dadb47d783a6a60eb.jpg","image_url":"https://storage.googleapis.com/lw-poppodium013-roadburn-prod/cms/uploads/2021-04-17-e2d65c10983a6106ae5c325dadb47d783a6a60eb.jpg"}],"data_url":"https://player.vimeo.com/video/515217060","meta_image":null,"meta_title":null,"thumb_url":null,"data_type":"VIMEO","channel_id":null},"category":{"code":"audio_n_video_premieres","category_name":"Audio & video premieres","category_id":3},"time_end":null,"time_start":"2021-04-18T09:00:00.000000Z","updated_at":"2021-04-19T08:01:02.000000Z","post_type":"video","comments_count":1,"active":1,"content":"<p>Bringing back memories of warm summer nights at outdoor festivals, we’re delighted to be able to bring you this live clip from <strong>Obsidian Kingdom</strong>. The track is <em>Womb of Wire</em>, taken from their 2020 album <em>MEAT MACHINE</em> - captured live at AMFest at Montjuic Castle, Barcelona.</p>","highlight":1,"slug":"obsidian-kingdom","data_id":99,"published_at":"2021-04-18T16:30:00.000000Z","created_at":"2021-04-13T12:09:04.000000Z"},{"liked":false,"likes_count":11,"post_type_status":"available","title":"Preview: Wolvennest","post_type_data":{"images":[{"name":"2021-04-15-243901d795932035c094128fffad5d485f3d8fab.jpg","image_url":"https://storage.googleapis.com/lw-poppodium013-roadburn-prod/cms/uploads/2021-04-15-243901d795932035c094128fffad5d485f3d8fab.jpg"}],"data_url":"https://roadburn.com/interview-wolvennest/","meta_image":null,"meta_title":null,"thumb_url":null,"data_type":null,"channel_id":null},"category":{"code":"articles","category_name":"Articles","category_id":5},"time_end":null,"time_start":"2021-04-15T09:00:00.000000Z","updated_at":"2021-04-19T07:25:30.000000Z","post_type":"article","comments_count":0,"active":1,"content":"<p>\"You can’t control everything, but if you give your very best, you’ll not have regrets.”</p><p><strong>Dom Lawson</strong> chatted to <strong>Wolvennest</strong> about what to expect from their performance of <em>Temple</em> and their collaborative show under the banner of <strong>The Nest</strong>. </p><p><br></p><p><br></p>","highlight":1,"slug":"preview-wolvennest","data_id":171,"published_at":"2021-04-18T16:20:00.000000Z","created_at":"2021-04-15T12:56:48.000000Z"},{"liked":false,"likes_count":36,"post_type_status":"available","title":"Album premiere: Territoire presents Étude de la profondeur","post_type_data":{"images":[{"name":"2021-04-17-65a10b34f28d723a571dd0ce609587a90d8e0081.jpg","image_url":"https://storage.googleapis.com/lw-poppodium013-roadburn-prod/cms/uploads/2021-04-17-65a10b34f28d723a571dd0ce609587a90d8e0081.jpg"}],"data_url":"https://player.vimeo.com/video/536714204","meta_image":null,"meta_title":null,"thumb_url":null,"data_type":"VIMEO","channel_id":null},"category":{"code":"exclusive_sets","category_name":"Exclusive sets","category_id":2},"time_end":null,"time_start":"2021-04-14T09:00:00.000000Z","updated_at":"2021-04-19T07:25:32.000000Z","post_type":"video","comments_count":8,"active":1,"content":"<p><strong>Olivier Arson</strong>, AKA <strong>Territoire</strong> is here to give your Sunday evening an abrasive sense of impending doom. Filmed in a warehouse - where else - and now broadcast via Roadburn Redux, we’re delighted to welcome <strong>Territoire</strong> back to Roadburn, performing their new album, <em>Étude de la profondeur</em>. If you caught their 2018 performance of their album <em>Alix</em> at Roadburn, you’ll know something of what to expect. For everyone else - strap in!</p>","highlight":1,"slug":"album-premiere-territoire-presents-etude-de-la-profondeur","data_id":135,"published_at":"2021-04-18T16:10:00.000000Z","created_at":"2021-04-14T10:52:49.000000Z"}],"fresh_highlights":false,"highlights":[]}
+{
+  "fresh_dynamic_data": false,
+  "links": {
+    "next": "https://roadburn-api.lwprod.nl/api/posts?page=5",
+    "prev": "https://roadburn-api.lwprod.nl/api/posts?page=3",
+    "last": "https://roadburn-api.lwprod.nl/api/posts?page=38",
+    "first": "https://roadburn-api.lwprod.nl/api/posts?page=1"
+  },
+  "meta": {
+    "to": 20,
+    "total": 189,
+    "last_page": 38,
+    "from": 16,
+    "per_page": 5,
+    "path": "https://roadburn-api.lwprod.nl/api/posts",
+    "current_page": 4
+  },
+  "fresh": true,
+  "posts_data": [
+    {
+      "liked": false,
+      "likes_count": 34,
+      "post_type_status": "available",
+      "title": "Amulets",
+      "post_type_data": {
+        "images": [
+          {
+            "name": "2021-04-17-c271c63c011e25d89d0bdf2cef1c5a2a1062ae1b.jpg",
+            "image_url": "https://storage.googleapis.com/lw-poppodium013-roadburn-prod/cms/uploads/2021-04-17-c271c63c011e25d89d0bdf2cef1c5a2a1062ae1b.jpg"
+          }
+        ],
+        "data_url": "https://player.vimeo.com/video/533941404",
+        "meta_image": null,
+        "meta_title": null,
+        "thumb_url": null,
+        "data_type": "VIMEO",
+        "channel_id": null
+      },
+      "category": {
+        "code": "audio_n_video_premieres",
+        "category_name": "Audio & video premieres",
+        "category_id": 3
+      },
+      "time_end": null,
+      "time_start": "2021-04-15T10:00:00.000000Z",
+      "updated_at": "2021-04-19T07:33:34.000000Z",
+      "post_type": "video",
+      "comments_count": 2,
+      "active": 1,
+      "content": "<p>We’re honoured to be able to premiere a performance video of a track taken from <em>Blooming</em>, recorded at <strong>Randall Taylor’</strong>s home studio - the same location where the album was recorded. Dive into the same lush electronics and contemplative energy found on <em>Blooming</em> and throughout this prolific artist’s back catalogue. </p>",
+      "highlight": 1,
+      "slug": "amulets",
+      "data_id": 100,
+      "published_at": "2021-04-18T16:50:00.000000Z",
+      "created_at": "2021-04-13T12:12:03.000000Z"
+    },
+    {
+      "liked": false,
+      "likes_count": 94,
+      "post_type_status": "available",
+      "title": "Commissioned: Of Blood And Mercury performing The Other Side Of Death",
+      "post_type_data": {
+        "images": [
+          {
+            "name": "2021-04-17-fe70e449c46f7f65a6e7f26ed0540b320e337fb3.jpg",
+            "image_url": "https://storage.googleapis.com/lw-poppodium013-roadburn-prod/cms/uploads/2021-04-17-fe70e449c46f7f65a6e7f26ed0540b320e337fb3.jpg"
+          }
+        ],
+        "data_url": "https://player.vimeo.com/video/538375970",
+        "meta_image": null,
+        "meta_title": null,
+        "thumb_url": null,
+        "data_type": null,
+        "channel_id": "rHcMVohl"
+      },
+      "category": {
+        "code": "livestreams",
+        "category_name": "Livestreams",
+        "category_id": 1
+      },
+      "time_end": null,
+      "time_start": "2021-04-14T09:00:00.000000Z",
+      "updated_at": "2021-04-19T07:25:26.000000Z",
+      "post_type": "livestream",
+      "comments_count": 16,
+      "active": 1,
+      "content": "<p>Live from Tilburg, <em>Of Blood and Mercury</em> are performing a commissioned piece called <em>The Other Side of Death</em>, a soundtrack that will move us through the first moments of after-life.&nbsp; They have promised that our earthly perception of time, space, sound, and feeling will fall apart. Not fully here, nor there, nowhere and everywhere; the lie about death is the beginning of the lie about life...</p>",
+      "highlight": 1,
+      "slug": "commissioned-of-blood-and-mercury-performing-the-other-side-of-death",
+      "data_id": 29,
+      "published_at": "2021-04-18T16:40:00.000000Z",
+      "created_at": "2021-04-09T13:42:21.000000Z"
+    },
+    {
+      "liked": false,
+      "likes_count": 30,
+      "post_type_status": "available",
+      "title": "Obsidian Kingdom",
+      "post_type_data": {
+        "images": [
+          {
+            "name": "2021-04-17-e2d65c10983a6106ae5c325dadb47d783a6a60eb.jpg",
+            "image_url": "https://storage.googleapis.com/lw-poppodium013-roadburn-prod/cms/uploads/2021-04-17-e2d65c10983a6106ae5c325dadb47d783a6a60eb.jpg"
+          }
+        ],
+        "data_url": "https://player.vimeo.com/video/515217060",
+        "meta_image": null,
+        "meta_title": null,
+        "thumb_url": null,
+        "data_type": "VIMEO",
+        "channel_id": null
+      },
+      "category": {
+        "code": "audio_n_video_premieres",
+        "category_name": "Audio & video premieres",
+        "category_id": 3
+      },
+      "time_end": null,
+      "time_start": "2021-04-18T09:00:00.000000Z",
+      "updated_at": "2021-04-19T08:01:02.000000Z",
+      "post_type": "video",
+      "comments_count": 1,
+      "active": 1,
+      "content": "<p>Bringing back memories of warm summer nights at outdoor festivals, we’re delighted to be able to bring you this live clip from <strong>Obsidian Kingdom</strong>. The track is <em>Womb of Wire</em>, taken from their 2020 album <em>MEAT MACHINE</em> - captured live at AMFest at Montjuic Castle, Barcelona.</p>",
+      "highlight": 1,
+      "slug": "obsidian-kingdom",
+      "data_id": 99,
+      "published_at": "2021-04-18T16:30:00.000000Z",
+      "created_at": "2021-04-13T12:09:04.000000Z"
+    },
+    {
+      "liked": false,
+      "likes_count": 11,
+      "post_type_status": "available",
+      "title": "Preview: Wolvennest",
+      "post_type_data": {
+        "images": [
+          {
+            "name": "2021-04-15-243901d795932035c094128fffad5d485f3d8fab.jpg",
+            "image_url": "https://storage.googleapis.com/lw-poppodium013-roadburn-prod/cms/uploads/2021-04-15-243901d795932035c094128fffad5d485f3d8fab.jpg"
+          }
+        ],
+        "data_url": "https://roadburn.com/interview-wolvennest/",
+        "meta_image": null,
+        "meta_title": null,
+        "thumb_url": null,
+        "data_type": null,
+        "channel_id": null
+      },
+      "category": {
+        "code": "articles",
+        "category_name": "Articles",
+        "category_id": 5
+      },
+      "time_end": null,
+      "time_start": "2021-04-15T09:00:00.000000Z",
+      "updated_at": "2021-04-19T07:25:30.000000Z",
+      "post_type": "article",
+      "comments_count": 0,
+      "active": 1,
+      "content": "<p>\"You can’t control everything, but if you give your very best, you’ll not have regrets.”</p><p><strong>Dom Lawson</strong> chatted to <strong>Wolvennest</strong> about what to expect from their performance of <em>Temple</em> and their collaborative show under the banner of <strong>The Nest</strong>. </p><p><br></p><p><br></p>",
+      "highlight": 1,
+      "slug": "preview-wolvennest",
+      "data_id": 171,
+      "published_at": "2021-04-18T16:20:00.000000Z",
+      "created_at": "2021-04-15T12:56:48.000000Z"
+    },
+    {
+      "liked": false,
+      "likes_count": 36,
+      "post_type_status": "available",
+      "title": "Album premiere: Territoire presents Étude de la profondeur",
+      "post_type_data": {
+        "images": [
+          {
+            "name": "2021-04-17-65a10b34f28d723a571dd0ce609587a90d8e0081.jpg",
+            "image_url": "https://storage.googleapis.com/lw-poppodium013-roadburn-prod/cms/uploads/2021-04-17-65a10b34f28d723a571dd0ce609587a90d8e0081.jpg"
+          }
+        ],
+        "data_url": "https://player.vimeo.com/video/536714204",
+        "meta_image": null,
+        "meta_title": null,
+        "thumb_url": null,
+        "data_type": "VIMEO",
+        "channel_id": null
+      },
+      "category": {
+        "code": "exclusive_sets",
+        "category_name": "Exclusive sets",
+        "category_id": 2
+      },
+      "time_end": null,
+      "time_start": "2021-04-14T09:00:00.000000Z",
+      "updated_at": "2021-04-19T07:25:32.000000Z",
+      "post_type": "video",
+      "comments_count": 8,
+      "active": 1,
+      "content": "<p><strong>Olivier Arson</strong>, AKA <strong>Territoire</strong> is here to give your Sunday evening an abrasive sense of impending doom. Filmed in a warehouse - where else - and now broadcast via Roadburn Redux, we’re delighted to welcome <strong>Territoire</strong> back to Roadburn, performing their new album, <em>Étude de la profondeur</em>. If you caught their 2018 performance of their album <em>Alix</em> at Roadburn, you’ll know something of what to expect. For everyone else - strap in!</p>",
+      "highlight": 1,
+      "slug": "album-premiere-territoire-presents-etude-de-la-profondeur",
+      "data_id": 135,
+      "published_at": "2021-04-18T16:10:00.000000Z",
+      "created_at": "2021-04-14T10:52:49.000000Z"
+    }
+  ],
+  "fresh_highlights": false,
+  "highlights": []
+}

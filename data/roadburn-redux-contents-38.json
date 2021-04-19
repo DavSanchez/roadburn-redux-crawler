@@ -1,1 +1,152 @@
-{"fresh_dynamic_data":false,"links":{"next":null,"prev":"https://roadburn-api.lwprod.nl/api/posts?page=37","last":"https://roadburn-api.lwprod.nl/api/posts?page=38","first":"https://roadburn-api.lwprod.nl/api/posts?page=1"},"meta":{"to":189,"total":189,"last_page":38,"from":186,"per_page":5,"path":"https://roadburn-api.lwprod.nl/api/posts","current_page":38},"fresh":true,"posts_data":[{"liked":false,"likes_count":110,"post_type_status":"available","title":"Welcome to Roadburn Redux","post_type_data":{"images":[{"name":"2021-04-14-372eeb507b8e382f1d26adf45cc5ad558a1724e5.jpeg","image_url":"https://storage.googleapis.com/lw-poppodium013-roadburn-prod/cms/uploads/2021-04-14-372eeb507b8e382f1d26adf45cc5ad558a1724e5.jpeg"}],"data_url":null,"meta_image":null,"meta_title":null,"thumb_url":null,"data_type":null,"channel_id":null},"category":null,"time_end":null,"time_start":"2021-04-13T04:30:00.000000Z","updated_at":"2021-04-17T23:09:45.000000Z","post_type":"written_update","comments_count":8,"active":1,"content":"<p>Hey there Roadburners, </p><p>Welcome to the Roadburn Redux platform. It's here where you'll find all the Roadburn activity unfolding over the coming days. There's not much to see here yet, but hopefully there's enough in place for you to find your way around and get a feel for how things are going to roll out. </p><p>We've never done a festival entirely online before so this is all new to us! We know that even the best laid plans can sometimes go awry so if anything looks out of place or doesn't work for you, let us know in the comments and we'll get our elite team of behind-the-scenes Roadburners on the case! </p><p>The important things to remember are:</p><ul><li>Roadburn Redux is free! Donations are welcome, but even if you're not able to chip in then you're still very much invited to the party. </li><li>If you log in, you can enjoy the full functionality of the site (i.e chat and comments), but you don't have to!</li><li>Content is available to re-watch after its premiere time - but only for a short while. This time next week, everything will be gone! Was it a figment of our imaginations?! We may never know...</li></ul><p>That's about all for now! Have a poke around and we'll see you back here on Thursday at 7pm CEST when the whole thing kicks off for real. </p><p><br></p><p>-Walter, Becky, the 013 venue &amp; the whole Roadburn team. </p><p><br></p><p><br></p>","highlight":0,"slug":"welcome-to-roadburn-redux","data_id":85,"published_at":"2021-04-14T09:55:00.000000Z","created_at":"2021-04-13T11:15:01.000000Z"},{"liked":false,"likes_count":57,"post_type_status":"available","title":"Roadburn 2018: The Documentary","post_type_data":{"images":[],"data_url":"https://www.youtube.com/embed/rplzmH-1C0k","meta_image":null,"meta_title":null,"thumb_url":null,"data_type":"YOUTUBE","channel_id":null},"category":{"code":"documentaires","category_name":"Documentaires","category_id":4},"time_end":null,"time_start":"2021-04-13T07:15:00.000000Z","updated_at":"2021-04-19T06:50:02.000000Z","post_type":"video","comments_count":2,"active":1,"content":"<p>If you find yourself with time to kill and Roadburn on your mind, you can pass half an hour with this documentary courtesy of <strong>Never Mind The Hype</strong>. It was shot at the 2018 edition of the festival, and captures a lot of what the festival is all about - a feeling we're going to try to capture in the digital realm this coming weekend. </p>","highlight":0,"slug":"roadburn-2018-the-documentary","data_id":81,"published_at":"2021-04-14T09:20:00.000000Z","created_at":"2021-04-13T11:06:50.000000Z"},{"liked":false,"likes_count":36,"post_type_status":"available","title":"Tilburg: the Dutch capital of heavy music","post_type_data":{"images":[],"data_url":"https://www.youtube.com/embed/Br6bz3Xh_2o","meta_image":null,"meta_title":null,"thumb_url":null,"data_type":"YOUTUBE","channel_id":null},"category":{"code":"documentaires","category_name":"Documentaires","category_id":4},"time_end":null,"time_start":null,"updated_at":"2021-04-17T23:09:58.000000Z","post_type":"video","comments_count":1,"active":1,"content":"<p>Anticipating the start of Roadburn Redux on Thursday evening? To get ready, watch the Netherlands' major cultural network, VPRO's documentary about the impact of the city of Tilburg, and Roadburn, on its local metal scene and beyond. 'Muziekstad Tilburg' features Autarkh, Witte Wieven and Temple Fang. Enjoy! (English subs available)</p>","highlight":0,"slug":"tilburg-the-dutch-capital-of-heavy-music","data_id":34,"published_at":"2021-04-14T09:00:00.000000Z","created_at":"2021-04-12T08:16:41.000000Z"},{"liked":false,"likes_count":29,"post_type_status":"available","title":"Metal Matters Podcast: Walter of Roadburn","post_type_data":{"images":[],"data_url":"https://open.spotify.com/embed-podcast/episode/1GazsxCFB3uxsDlHwC21cU","meta_image":null,"meta_title":null,"thumb_url":null,"data_type":null,"channel_id":null},"category":{"code":"podcasts","category_name":"Podcasts","category_id":7},"time_end":null,"time_start":"2021-04-14T10:00:00.000000Z","updated_at":"2021-04-17T23:10:02.000000Z","post_type":"spotify","comments_count":0,"active":1,"content":"<p>We've got podcast episodes coming your way on Friday, Saturday and Sunday, courtesy of the <strong>Metal Matters podcas</strong>t. Created by journalist <strong>Fred Pessaro</strong> and <strong>Mike Berdan</strong> from Roadburn favourites <strong>Uniform</strong>, we'll be bringing you interviews from a whole bunch of your favourite artists over the course of the weekend. </p><p>Why not get started right now with this episode featuring our very own Walter!</p>","highlight":0,"slug":"metal-matters-podcast-walter-of-roadburn","data_id":129,"published_at":"2021-04-14T08:15:00.000000Z","created_at":"2021-04-14T09:15:07.000000Z"}],"fresh_highlights":false,"highlights":[]}
+{
+  "fresh_dynamic_data": false,
+  "links": {
+    "next": null,
+    "prev": "https://roadburn-api.lwprod.nl/api/posts?page=37",
+    "last": "https://roadburn-api.lwprod.nl/api/posts?page=38",
+    "first": "https://roadburn-api.lwprod.nl/api/posts?page=1"
+  },
+  "meta": {
+    "to": 189,
+    "total": 189,
+    "last_page": 38,
+    "from": 186,
+    "per_page": 5,
+    "path": "https://roadburn-api.lwprod.nl/api/posts",
+    "current_page": 38
+  },
+  "fresh": true,
+  "posts_data": [
+    {
+      "liked": false,
+      "likes_count": 110,
+      "post_type_status": "available",
+      "title": "Welcome to Roadburn Redux",
+      "post_type_data": {
+        "images": [
+          {
+            "name": "2021-04-14-372eeb507b8e382f1d26adf45cc5ad558a1724e5.jpeg",
+            "image_url": "https://storage.googleapis.com/lw-poppodium013-roadburn-prod/cms/uploads/2021-04-14-372eeb507b8e382f1d26adf45cc5ad558a1724e5.jpeg"
+          }
+        ],
+        "data_url": null,
+        "meta_image": null,
+        "meta_title": null,
+        "thumb_url": null,
+        "data_type": null,
+        "channel_id": null
+      },
+      "category": null,
+      "time_end": null,
+      "time_start": "2021-04-13T04:30:00.000000Z",
+      "updated_at": "2021-04-17T23:09:45.000000Z",
+      "post_type": "written_update",
+      "comments_count": 8,
+      "active": 1,
+      "content": "<p>Hey there Roadburners, </p><p>Welcome to the Roadburn Redux platform. It's here where you'll find all the Roadburn activity unfolding over the coming days. There's not much to see here yet, but hopefully there's enough in place for you to find your way around and get a feel for how things are going to roll out. </p><p>We've never done a festival entirely online before so this is all new to us! We know that even the best laid plans can sometimes go awry so if anything looks out of place or doesn't work for you, let us know in the comments and we'll get our elite team of behind-the-scenes Roadburners on the case! </p><p>The important things to remember are:</p><ul><li>Roadburn Redux is free! Donations are welcome, but even if you're not able to chip in then you're still very much invited to the party. </li><li>If you log in, you can enjoy the full functionality of the site (i.e chat and comments), but you don't have to!</li><li>Content is available to re-watch after its premiere time - but only for a short while. This time next week, everything will be gone! Was it a figment of our imaginations?! We may never know...</li></ul><p>That's about all for now! Have a poke around and we'll see you back here on Thursday at 7pm CEST when the whole thing kicks off for real. </p><p><br></p><p>-Walter, Becky, the 013 venue &amp; the whole Roadburn team. </p><p><br></p><p><br></p>",
+      "highlight": 0,
+      "slug": "welcome-to-roadburn-redux",
+      "data_id": 85,
+      "published_at": "2021-04-14T09:55:00.000000Z",
+      "created_at": "2021-04-13T11:15:01.000000Z"
+    },
+    {
+      "liked": false,
+      "likes_count": 57,
+      "post_type_status": "available",
+      "title": "Roadburn 2018: The Documentary",
+      "post_type_data": {
+        "images": [],
+        "data_url": "https://www.youtube.com/embed/rplzmH-1C0k",
+        "meta_image": null,
+        "meta_title": null,
+        "thumb_url": null,
+        "data_type": "YOUTUBE",
+        "channel_id": null
+      },
+      "category": {
+        "code": "documentaires",
+        "category_name": "Documentaires",
+        "category_id": 4
+      },
+      "time_end": null,
+      "time_start": "2021-04-13T07:15:00.000000Z",
+      "updated_at": "2021-04-19T06:50:02.000000Z",
+      "post_type": "video",
+      "comments_count": 2,
+      "active": 1,
+      "content": "<p>If you find yourself with time to kill and Roadburn on your mind, you can pass half an hour with this documentary courtesy of <strong>Never Mind The Hype</strong>. It was shot at the 2018 edition of the festival, and captures a lot of what the festival is all about - a feeling we're going to try to capture in the digital realm this coming weekend. </p>",
+      "highlight": 0,
+      "slug": "roadburn-2018-the-documentary",
+      "data_id": 81,
+      "published_at": "2021-04-14T09:20:00.000000Z",
+      "created_at": "2021-04-13T11:06:50.000000Z"
+    },
+    {
+      "liked": false,
+      "likes_count": 36,
+      "post_type_status": "available",
+      "title": "Tilburg: the Dutch capital of heavy music",
+      "post_type_data": {
+        "images": [],
+        "data_url": "https://www.youtube.com/embed/Br6bz3Xh_2o",
+        "meta_image": null,
+        "meta_title": null,
+        "thumb_url": null,
+        "data_type": "YOUTUBE",
+        "channel_id": null
+      },
+      "category": {
+        "code": "documentaires",
+        "category_name": "Documentaires",
+        "category_id": 4
+      },
+      "time_end": null,
+      "time_start": null,
+      "updated_at": "2021-04-17T23:09:58.000000Z",
+      "post_type": "video",
+      "comments_count": 1,
+      "active": 1,
+      "content": "<p>Anticipating the start of Roadburn Redux on Thursday evening? To get ready, watch the Netherlands' major cultural network, VPRO's documentary about the impact of the city of Tilburg, and Roadburn, on its local metal scene and beyond. 'Muziekstad Tilburg' features Autarkh, Witte Wieven and Temple Fang. Enjoy! (English subs available)</p>",
+      "highlight": 0,
+      "slug": "tilburg-the-dutch-capital-of-heavy-music",
+      "data_id": 34,
+      "published_at": "2021-04-14T09:00:00.000000Z",
+      "created_at": "2021-04-12T08:16:41.000000Z"
+    },
+    {
+      "liked": false,
+      "likes_count": 29,
+      "post_type_status": "available",
+      "title": "Metal Matters Podcast: Walter of Roadburn",
+      "post_type_data": {
+        "images": [],
+        "data_url": "https://open.spotify.com/embed-podcast/episode/1GazsxCFB3uxsDlHwC21cU",
+        "meta_image": null,
+        "meta_title": null,
+        "thumb_url": null,
+        "data_type": null,
+        "channel_id": null
+      },
+      "category": {
+        "code": "podcasts",
+        "category_name": "Podcasts",
+        "category_id": 7
+      },
+      "time_end": null,
+      "time_start": "2021-04-14T10:00:00.000000Z",
+      "updated_at": "2021-04-17T23:10:02.000000Z",
+      "post_type": "spotify",
+      "comments_count": 0,
+      "active": 1,
+      "content": "<p>We've got podcast episodes coming your way on Friday, Saturday and Sunday, courtesy of the <strong>Metal Matters podcas</strong>t. Created by journalist <strong>Fred Pessaro</strong> and <strong>Mike Berdan</strong> from Roadburn favourites <strong>Uniform</strong>, we'll be bringing you interviews from a whole bunch of your favourite artists over the course of the weekend. </p><p>Why not get started right now with this episode featuring our very own Walter!</p>",
+      "highlight": 0,
+      "slug": "metal-matters-podcast-walter-of-roadburn",
+      "data_id": 129,
+      "published_at": "2021-04-14T08:15:00.000000Z",
+      "created_at": "2021-04-14T09:15:07.000000Z"
+    }
+  ],
+  "fresh_highlights": false,
+  "highlights": []
+}
