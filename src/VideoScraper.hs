@@ -20,7 +20,7 @@ import Types
   )
 
 getRoadburnRedux :: IO ()
-getRoadburnRedux = scrape >>= writeFileText "data/roadburn-redux-urls.txt" . unlines
+getRoadburnRedux = scrape >>= writeFileText "roadburn-redux-21/video-urls.txt" . unlines
 -- OR getRoadburnRedux = scrape >>= traverse_ (appendFileText "data/roadburn-redux-urls.txt" . (<> "\n"))
 
 req :: Text
@@ -38,7 +38,7 @@ scrape = goScrape 0
       response <- httpJSON request
       let scrapeData = getResponseBody response :: PostsItem
           videoLinks = (getVideoLinks . getVideoItems) scrapeData
-      encodeFile ("data/roadburn-redux-contents-" ++ show n ++ ".json") scrapeData
+      encodeFile ("roadburn-redux-21/contents-" ++ show n ++ ".json") scrapeData
       if (null . getPostData) scrapeData
         then pure []
         else pure videoLinks <> goScrape (n + 1) -- The IO monad is instance of Semigroup (?)

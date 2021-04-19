@@ -45,7 +45,7 @@ category:           Web
 -- Extra files to be distributed with the package, such as examples or a README.
 extra-source-files: CHANGELOG.md
 
-data-dir:           data
+data-dir:           roadburn-redux-21
 
 library
     -- Modules exported by the library.
@@ -85,6 +85,7 @@ executable roadburn-redux-crawler
     -- Other library packages from which modules are imported.
     build-depends:
         base ^>=4.14.1.0,
+        directory,
         roadburn-redux-crawler
 
     -- Directories containing source files.
