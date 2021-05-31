@@ -14,7 +14,7 @@ name:               roadburn-redux-crawler
 -- PVP summary:      +-+------- breaking API changes
 --                   | | +----- non-breaking API additions
 --                   | | | +--- code changes with no API change
-version:            0.1.0.0
+version:            0.1.0.1
 
 -- A short (one-line) description of the package.
 synopsis:
@@ -59,9 +59,10 @@ library
 
     -- Other library packages from which modules are imported.
     build-depends:    base ^>=4.14.1.0
-                    , relude ^>= 1.0.0.0
+                    , relude ^>= 0.7.0.0
                     , aeson
                     , http-conduit
+                    , text
 
     mixins:           base hiding (Prelude)
                     , relude (Relude as Prelude)
