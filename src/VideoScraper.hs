@@ -11,7 +11,6 @@ import Network.HTTP.Simple
   )
 import Types
   ( DataItem (post_type, post_type_data),
-    DataType,
     PostType,
     PostTypeDataItem (data_url),
     PostsItem (posts_data),
