@@ -3,8 +3,6 @@
 
 module VideoScraper (getRoadburnRedux) where
 
-import Data.Aeson (ToJSON (toJSON), encode, encodeFile, toEncoding)
-import qualified Data.Text as T
 import Network.HTTP.Simple
   ( getResponseBody,
     httpJSON,
@@ -21,6 +19,7 @@ import Types
 
 getRoadburnRedux :: IO ()
 getRoadburnRedux = scrape >>= writeFileText "roadburn-redux-21/video-urls.txt" . unlines
+
 -- OR getRoadburnRedux = scrape >>= traverse_ (appendFileText "data/roadburn-redux-urls.txt" . (<> "\n"))
 
 req :: Text
@@ -65,8 +64,8 @@ isVideo = (==) "video"
 filterByVideo :: [DataItem] -> [DataItem]
 filterByVideo = filter (isVideo . getPostTypeFromData)
 
-isFromVimeo :: DataType -> Bool
-isFromVimeo = (==) "VIMEO"
+-- isFromVimeo :: DataType -> Bool
+-- isFromVimeo = (==) "VIMEO"
 
 getVideoUrl :: PostTypeDataItem -> Maybe URL
 getVideoUrl = data_url
