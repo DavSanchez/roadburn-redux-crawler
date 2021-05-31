@@ -3,6 +3,7 @@
 
 module VideoScraper (getRoadburnRedux) where
 
+import Data.Aeson (encodeFile)
 import Network.HTTP.Simple
   ( getResponseBody,
     httpJSON,
